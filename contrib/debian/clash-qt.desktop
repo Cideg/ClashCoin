@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CLH
+Comment=CLH P2P Cryptocurrency
+Comment[fr]=CLH, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CLH, eşten eşe kriptografik sanal para birimi
+Exec=clash-qt %u
+Terminal=false
+Type=Application
+Icon=clash128
+MimeType=x-scheme-handler/clash;
+Categories=Office;Finance;

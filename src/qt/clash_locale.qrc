@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/clash_bg.qm</file>
+        <file alias="de">locale/clash_de.qm</file>
+        <file alias="en">locale/clash_en.qm</file>
+        <file alias="es">locale/clash_es.qm</file>
+        <file alias="fi">locale/clash_fi.qm</file>
+        <file alias="fr">locale/clash_fr.qm</file>
+        <file alias="it">locale/clash_it.qm</file>
+        <file alias="ja">locale/clash_ja.qm</file>
+        <file alias="pl">locale/clash_pl.qm</file>
+        <file alias="pt">locale/clash_pt.qm</file>
+        <file alias="ru">locale/clash_ru.qm</file>
+        <file alias="sk">locale/clash_sk.qm</file>
+        <file alias="sv">locale/clash_sv.qm</file>
+        <file alias="vi">locale/clash_vi.qm</file>
+        <file alias="zh_CN">locale/clash_zh_CN.qm</file>
+        <file alias="zh_TW">locale/clash_zh_TW.qm</file>
+    </qresource>
+</RCC>

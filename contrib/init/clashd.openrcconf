@@ -1,0 +1,26 @@
+# /etc/conf.d/clashd: config file for /etc/init.d/clashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/clash/clash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/clashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/clashd.pid"
+
+# Where to write clashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/clashd"
+
+# User and group to own clashd process
+#BITCOIND_USER="clash"
+#BITCOIND_GROUP="clash"
+
+# Path to clashd executable
+#BITCOIND_BIN="/usr/bin/clashd"
+
+# Nice value to run clashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
