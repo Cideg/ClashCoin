@@ -11,3 +11,10 @@ Always verify the signatures and checksums.
 See doc/build-*.md for instructions on building clashd,
 the intended-for-services, no-graphical-interface, reference
 implementation of CLH.
+
+If you have got troubles installing it, make sure you installed the dependencies from depends/.
+If you are unable to build those, try installing other useful dependencies or open an issue.
+	sudo chmod -R 777 * && sudo apt-get update -y && sudo apt-get upgrade -y && sudo add-apt-repository ppa:bitcoin/bitcoin -y && sudo add-apt-repository ppa:git-core/ppa && sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install build-essential libssl-dev libboost-all-dev libqrencode-dev pkg-config libminiupnpc-dev qt5-default qttools5-dev-tools libgmp3-dev -y && sudo apt-get update -y && sudo apt-get install libdb4.8-dev libdb4.8++-dev -y && sudo apt-get install autoconf -y && sudo apt-get install build-essential libtool autotools-dev pkg-config libssl-dev libboost-all-dev autoconf automake -y && sudo apt-get install libzmq3-dev libminiupnpc-dev libssl-dev libevent-dev -y && sudo apt-get install libgmp-dev -y && sudo apt-get install openssl -y && sudo apt-get update -y && sudo apt-get install git build-essential -y && sudo apt-get install aptitude -y && sudo aptitude install libdb4.8++-dev -y && sudo apt-get install git -y && sudo apt-get install software-properties-common python-software-properties -y && sudo apt-get install git -y && sudo apt-get install libssl1.0-dev && sudo apt-get update -y
+
+
+
